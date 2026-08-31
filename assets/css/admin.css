@@ -1,0 +1,45 @@
+.rds-wrap h1 {
+    margin-bottom: 24px;
+}
+
+.rds-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    max-width: 860px;
+}
+
+.rds-card h2 {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d2327;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.rds-empty {
+    color: #999;
+    font-style: italic;
+}
+
+.rds-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rds-ok {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.rds-err {
+    background: #fee2e2;
+    color: #991b1b;
+}
