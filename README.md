@@ -1,10 +1,10 @@
 # leads-to-rd
 
-WordPress plugin that automatically syncs Contact Form 7 and WPForms submissions to [RD Station CRM](https://www.rdstation.com/) — zero configuration after setup.
+WordPress plugin that automatically syncs Contact Form 7 and WPForms submissions to [RD Station CRM](https://www.rdstation.com/). Zero configuration after setup.
 
 ## How it works
 
-Once the API token is saved, every form submission is intercepted and sent to RD Station as a conversion event. No manual field mapping needed — the plugin detects email, name, and phone fields automatically.
+Once the API token is saved, every form submission is intercepted and sent to RD Station as a conversion event. No manual field mapping needed: the plugin detects email, name, and phone fields automatically.
 
 ```
 Form submitted
@@ -16,9 +16,9 @@ Form submitted
 ## Features
 
 - Supports **Contact Form 7** and **WPForms** out of the box
-- **Zero field mapping** — automatically detects email, name and phone by field name/label
-- **Conversion logging** — every submission stored in the database with HTTP status and API response
-- Lightweight — no production dependencies, pure WordPress APIs
+- **Zero field mapping**: automatically detects email, name and phone by field name/label
+- **Conversion logging**: every submission stored in the database with HTTP status and API response
+- Lightweight, no production dependencies, pure WordPress APIs
 
 ## Requirements
 
@@ -42,7 +42,7 @@ git clone https://github.com/larissa4p/leads-to-rd.git
 
 1. Go to **Settings → RD Station** in the WordPress admin panel
 2. Paste your API token (found in **RD Station → Integrações → API Token**)
-3. Save — done. All new form submissions will sync automatically.
+3. Save. All new form submissions will sync automatically.
 
 ## Supported field names
 
